@@ -15,7 +15,7 @@ form.addEventListener('submit', (e) => {
     
         loginBtn.addEventListener('click', (e) => {
             localStorage.clear();
-            location.href = 'https://markygan123.github.io/javascript-login/';
+            location.href = '/index.html';
         });    
     }
 
