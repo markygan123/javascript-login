@@ -15,7 +15,7 @@ form.addEventListener('submit', (e) => {
     
         loginBtn.addEventListener('click', (e) => {
             localStorage.clear();
-            location.href = '/javascript-login/';
+            location.href = 'index.html';
         });    
     }
 
