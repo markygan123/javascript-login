@@ -34,7 +34,7 @@ form.addEventListener('submit', (e) => {
         errorMsg.innerText = messages.join(', ');
     } else {
         registerUser();
-        location.href = 'login.html'
+        location.href = 'javascript-login/login.html'
     }
     
     
