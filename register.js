@@ -34,7 +34,7 @@ form.addEventListener('submit', (e) => {
         errorMsg.innerText = messages.join(', ');
     } else {
         registerUser();
-        location.href = 'https://markygan123.github.io/login.html'
+        location.href = 'login/'
     }
     
     
