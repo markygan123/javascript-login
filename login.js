@@ -14,8 +14,8 @@ form.addEventListener('submit', (e) => {
         password.disabled = true;
     
         loginBtn.addEventListener('click', (e) => {
-            localStorage.clear();
             location.href = '/index.html';
+            localStorage.clear();
         });    
     }
 
